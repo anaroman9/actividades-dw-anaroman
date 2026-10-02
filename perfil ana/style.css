@@ -87,11 +87,51 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 5px;
-    color: #202020;
+    color: #6ccff3;
 }
 
 .profile h2 {
     font-size: 15px;
     font-weight: 500;
-    color: #666;
+    color: #1a2628;
 }
+
+.profile-description {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #212c2c;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* Redes Sociales*/
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #a5d2ea;
+    color: #333;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-4px);
+    background: #222;
+    color: #ffffff;
+}
+
